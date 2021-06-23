@@ -1,0 +1,112 @@
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navegacion{
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #f8ede3; 
+}
+.ul-nav{
+    width: 800px;
+    height: 30px;
+    /* border: 1px solid red; */
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a{  
+    /* border: 1px solid blue; */
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    color: #941E4D;
+    text-decoration: none;
+}
+
+.seccion-uno{
+    background-color: #FBFCFC;
+    width:100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+h3{
+    color: #231e23;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h1{
+    color: #512DA8;
+    font-size: 4em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* align-self: flex-start; */
+
+}
+.texto-presentacion{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.mi-presentacion{
+    /* border: 1px solid red;   */
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.boton-contacto{
+    width: 60px;
+    height: 30px;
+    padding: 0 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #512DA8;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-self: flex-start; */
+}
+.boton-loquehago{
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    background-color: #512DA8;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-self: flex-start; */
+}
+
+.contacto-principal{
+    border: 1px solid yellow;
+    width: 600px;
+    margin-top: 30px;
+    
+}
+.imagen-dev{
+    width: 500px;
+}
