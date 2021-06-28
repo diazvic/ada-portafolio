@@ -1,4 +1,4 @@
-html, body{
+body{
     box-sizing: border-box;
     margin: 0;
     padding:0;
@@ -6,12 +6,12 @@ html, body{
     height: 100%;
     font-family: 'Quicksand', sans-serif;
 }
-
+/* seccion uno */
 .navegacion{
     position: fixed;
     padding: 10px;
     width: 100%;
-    height: 40px;
+    height: 70px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -23,14 +23,15 @@ html, body{
     /* border: 1px solid red; */
     list-style: none;
     display: flex;
+    margin: 0;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
 }
 a{  
     /* border: 1px solid blue; */
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
     color: #941E4D;
     text-decoration: none;
 }
@@ -38,7 +39,7 @@ a{
 .seccion-uno{
     background-color: #FBFCFC;
     width:100%;
-    height: 600px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -51,11 +52,12 @@ h3{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-h1{
+.titulo{
     color: #512DA8;
-    font-size: 4em;
+    font-size: 60px;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-family:'Montserrat', sans-serif;
     /* align-self: flex-start; */
 
 }
@@ -109,4 +111,38 @@ h1{
 }
 .imagen-dev{
     width: 500px;
+}
+
+/* seccion dos */
+.titulo-conocimientos{
+    display: flex;
+    justify-content: center;
+}
+.parrafo-conocimientos{
+    display: flex;
+    justify-content: center;
+}
+
+.tarjetas{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+} 
+.columnas{
+    display: flex;
+    justify-content: center;
+}
+.skills{
+    background-color:grey; 
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconos-skills{
+    font-size: 80px;
+}
+.skill-descripcion{
 }
