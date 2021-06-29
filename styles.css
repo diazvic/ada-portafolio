@@ -4,7 +4,8 @@ body{
     padding:0;
     width: 100%;
     height: 100%;
-    font-family: 'Quicksand', sans-serif;
+    font-family:'Montserrat', sans-serif; 
+    /* font-family: 'Quicksand', sans-serif; */
 }
 /* seccion uno */
 .navegacion{
@@ -104,7 +105,7 @@ h3{
 }
 
 .contacto-principal{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     width: 600px;
     margin-top: 30px;
     
@@ -114,35 +115,56 @@ h3{
 }
 
 /* seccion dos */
+.seccion-dos{
+    background-color: #F2F4F4;
+}
+.mis-conocimientos{
+    padding: 130px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
 .titulo-conocimientos{
     display: flex;
     justify-content: center;
+    font-size: 45px;
 }
 .parrafo-conocimientos{
-    display: flex;
-    justify-content: center;
+    width: 400px;
 }
 
 .tarjetas{
-    height: 600px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 } 
 .columnas{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    width: 1000px; 
+    margin-top: 40px;
 }
 .skills{
-    background-color:grey; 
-    width: 200px;
-    height: 200px;
+    background-color:#FFFFFF; 
+    border: 1px solid #F2F3F4;
+    border-radius: 8px;
+    width: 250px;
+    height: 250px;
     margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .iconos-skills{
     font-size: 80px;
 }
 .skill-descripcion{
+    font-size: 18px;
+    font-weight: 900;
+    font-family:'Montserrat', sans-serif;
+}
+.mayuscula{
+    text-transform: uppercase;
 }
