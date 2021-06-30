@@ -168,3 +168,27 @@ h3{
 .mayuscula{
     text-transform: uppercase;
 }
+/* seccion tres */
+.seccion-tres{
+    background-color: #512DA8;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono-comillas{
+    font-size: 80px;
+}
+.parrafo-cita{
+    font-size: 20px;
+    max-width: 830px;
+    text-align: center;
+}
+.blanco{
+    color: #FFFFFF;
+}
+.titulo-cita{
+    
+}
