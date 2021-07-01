@@ -219,6 +219,40 @@ h3{
     margin: 20px;
     width: 300px;
     height: 300px;
-    background-color: hotpink;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tarjeta-descripcion{
+    font-size: 18px;
+}
+.imagen-proyecto-portafolio{
+    width: 300px;
+    height: 180px;
+}
+.imagen-generador-de-memes{
+    width: 200px;
+    height: 180px;
+}
+.imagen-match{
+    width: 200px;
+    height: 180px;
+}
+.imagen-gastos{
+    width: 200px;
+    height: 180px;
+}
+.imagen-reuniones{
+    width: 200px;
+    height: 180px;
+}
+.imagen-app{
+    width: 200px;
+    height: 180px;
+}
+.imagen-peliculas{
+    width: 200px;
+    height: 180px;
 }
