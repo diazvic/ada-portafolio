@@ -33,7 +33,7 @@ body{
 a{  
     /* border: 1px solid blue; */
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 18px;
     color: #941E4D;
     text-decoration: none;
@@ -196,6 +196,9 @@ h3{
 }
 
 /* seccion cuatro */
+.titulo-mis-proyectos{
+    font-family: ;
+}
 .parrafo-mis-proyectos{
     max-width: 400px;
     text-align: center;
