@@ -91,20 +91,7 @@ h3{
     align-items: center;
     /* align-self: flex-start; */
 }
-.boton-loquehago{
-    width: 160px;
-    height: 40px;
-    border: none;
-    border-radius: 40px;
-    background-color: #512DA8;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* align-self: flex-start; */
-}
+
 
 .contacto-principal{
     /* border: 1px solid yellow; */
@@ -258,4 +245,146 @@ h3{
 .imagen-peliculas{
     width: 200px;
     height: 180px;
+}
+
+/* seccion cinco */
+.seccion-cinco{
+    background-color:#F6F7FB;
+    display: flex;
+    justify-content: center;
+    padding: 125px;
+}
+.contenedor-seccion-cinco{
+    display: flex;
+    height: 700px;
+    background-color: #FFFFFF;
+    width: 1000px;
+}
+.caja-contactame{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 30px;
+}
+.lista-iconos{
+    list-style: none;
+    font-size: 20px;
+}
+.icono-redes-sociales{
+    height: 40px;
+}
+.link-redes-sociales{
+    text-decoration: none;
+    color: #364242;
+    text-transform: lowercase;
+}
+.icono{
+    margin-right: 15px;
+    color: #8338ec;
+}
+.contenedor-lista{
+    height: 350px;
+    display: flex;         
+    flex-direction: column;
+    justify-content: space-between;
+}
+.caja-escribime{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 500px;
+}
+.formulario{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulo-formulario{
+    font-size: 50px;
+}
+
+.parrafo-contacto{
+    max-width: 300px;
+    font-size: 16px;
+}
+.nombre-apellido{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.ingreso-nombre{
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+}
+.ingreso-apellido{
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+}
+.ingreso-mail{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.ingreso-mensaje{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 500px;
+    height: 150px;
+    border-radius: 10px;
+}
+.input-texto{
+    /* border: transparent; */
+    /* border: 1px solid blueviolet; */
+    border: none;
+    border-radius: 5px;
+    width: 204px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: #F6F7FB;
+    padding-left: 15px;
+}
+.input-email{
+    width: 495px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #F6F7FB;
+    padding-left: 15px;
+}
+.texto-area{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F6F7FB;
+    padding-left: 10px;
+}
+
+
+.boton-loquehago, .boton-formulario{
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    background-color: #512DA8;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton-formulario{
+    width: 120px;
+    text-transform:initial;
+    background-color: #8338EC;
+}
+::placeholder{
+    font-size: 15px;
 }
