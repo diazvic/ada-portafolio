@@ -118,7 +118,7 @@ h3{
 .titulo-conocimientos{
     display: flex;
     justify-content: center;
-    font-size: 45px;
+    font-size: 40px;
 }
 .parrafo-conocimientos{
     width: 400px;
@@ -185,7 +185,7 @@ h3{
 
 /* seccion cuatro */
 .titulo-mis-proyectos{
-    font-family: ;
+    font-size: 40px;
 }
 .parrafo-mis-proyectos{
     max-width: 400px;
@@ -304,7 +304,7 @@ h3{
 }
 
 .titulo-formulario{
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .parrafo-contacto{
