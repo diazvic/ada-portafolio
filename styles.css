@@ -390,3 +390,36 @@ h3{
 ::placeholder{
     font-size: 15px;
 }
+/* footer */
+footer{
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+}
+.footer-nav{
+    background-color: palegoldenrod;
+    display: flex;
+    justify-content: center;
+}
+.lista-iconos-footer{
+    background-color: paleturquoise;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.parrafo-footer{
+    display: flex;
+    justify-content: center;
+}
+.lista-nav{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.lista-links-redes{
+    display: flex;
+    justify-content: center;
+}
+.lista-links-nav{
+    margin-right: 10px;
+}
