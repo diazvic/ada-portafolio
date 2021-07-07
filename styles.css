@@ -220,6 +220,9 @@ h3{
 .tarjeta-descripcion{
     font-size: 18px;
     font-weight: 500;
+    color: #060606;
+    text-align: center;
+    text-transform: initial;
 }
 .imagen-proyecto-portafolio{
     width: 300px;
@@ -431,5 +434,5 @@ footer{
     font-size: 20px;
     margin-right: 10px;
     text-align: center;
-    line-height: 45px;
+    line-height: 45px !important; 
 }
