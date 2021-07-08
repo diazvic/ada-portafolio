@@ -312,6 +312,9 @@ h3{
     height: 40px;
     display: flex;
 }
+/* .icono-redes-sociales:focus{
+    border: 1px solid #A569BD;
+} */
 .link-redes-sociales{
     text-decoration: none;
     color: #364242;
@@ -328,12 +331,12 @@ h3{
     width: 35px;
     height: 35px;
     border-radius: 50px;
-    display: flex;
+    display: flex !important;
     justify-content: center;
     align-items: center;
 }
 .icono-redes-sociales:hover .icono{
-    background-color: blueviolet;
+    background-color: #8338ec;
     color: #FFFFFF;
 }
 .contenedor-lista{
@@ -420,7 +423,14 @@ h3{
     background-color: #F6F7FB;
     padding-left: 10px;
 }
-
+.texto-area:focus{
+    box-shadow: -2px -1px 15px 0px #C64FF5;
+    outline: none;
+}
+input:focus{
+    box-shadow: -2px -1px 15px 0px #C64FF5;
+    outline: none;
+} 
 
 .boton-loquehago, .boton-formulario{
     width: 160px;
@@ -439,6 +449,12 @@ h3{
     width: 120px;
     text-transform:initial;
     background-color: #8338EC;
+}
+.boton-loquehago:hover{
+    background-color: #A569BD;
+}
+.boton-formulario:hover{
+    background-color: #A569BD;
 }
 ::placeholder{
     font-size: 15px;
@@ -486,4 +502,3 @@ footer{
     line-height: 45px !important; 
 }
 
-/* seccion de hover */
