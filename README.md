@@ -7,7 +7,7 @@
 <strong>Los links para que puedas visualizar  🔭  mi proyecto: </strong>
 
   <p> ⭐  https://diazvic.github.io/ada-portafolio/ </p>
-  <p> ⭐  https://happy-ritchie-d0957e.netlify.app </p>
+  <p> ⭐  https://diaz-vic-ada-portafolio.netlify.app/ </p>
   
 
 <h3 align="left">Las tecnologias que use</h3>
