@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Maria Victoria Diaz</title>
     <!-- link de favicon -->
-    <link rel="icon"  href="./logo.ico">
+    <link rel="icon" href="./logo.ico">
     <!-- links de estilos -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-nuevo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;800;900&display=swap" rel="stylesheet">
@@ -17,26 +18,27 @@
     <!-- link de iconos  -->
     <script src="https://kit.fontawesome.com/55efe9bfd6.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <!-- navegacion -->
-    <nav class="navegacion">
-        <ul class="ul-nav">
+    <nav class="navegacion flex">
+        <ul class="ul-nav flex">
             <a href="#seccion-uno" class="link">Hola</a>
             <a href="#seccion-dos" class="link">Conocimientos</a>
             <a href="#seccion-cuatro" class="link">Proyectos</a>
-            <a href="#" class="link boton-contacto">Contacto</a>
+            <a href="#" class="boton-contacto flex">Contacto</a>
         </ul>
     </nav>
     <!-- seccion uno -->
     <a name="seccion-uno"></a>
-    <section class="seccion-uno">
-                <div class="mi-presentacion">
-                <h3>¡Hola! Soy</h3>
-                <h1 class="titulo">
-                    Victoria Diaz
-                </h1>
-                <p class="texto-presentacion">Estudiante de Veterinaria, futura Desarrolladora Frontend y Cat lover</p>
-                <a href="#seccion-cuatro" class="boton-loquehago">Lo que hago</a>
+    <section class="seccion-uno flex">
+        <div class="mi-presentacion">
+            <h3>¡Hola! Soy</h3>
+            <h1 class="titulo">
+                Victoria Diaz
+            </h1>
+            <p class="texto-presentacion">Estudiante de Veterinaria, futura Desarrolladora Frontend y Cat lover</p>
+            <a href="#seccion-cuatro" class="boton-loquehago flex">Lo que hago</a>
         </div>
         <div class="imagen contacto-principal">
             <img class="imagen-dev" src="./imagendev.svg" alt="imagen principal">
@@ -45,42 +47,42 @@
     <!-- seccion dos -->
     <a name="seccion-dos"></a>
     <section class="seccion-dos">
-        <div class="mis-conocimientos">
-            <h2 class="titulo-conocimientos">Mis conocimientos</h2>
+        <div class="mis-conocimientos flex flex-column">
+            <h2 class="titulo-conocimientos flex">Mis conocimientos</h2>
             <p class="parrafo-conocimientos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque neque molestias consequuntur vel ab quas architecto.</p>
-                <div class="tarjetas">
-                        <div class="columnas">
-                            <div class="skills">
-                                <i class="devicon-html5-plain colored iconos-skills" aria-label="icono de html"></i>
-                                <p class="skill-descripcion mayuscula">html 5</p>
-                            </div>
-                            <div class="skills">
-                                <i class="devicon-css3-plain colored iconos-skills" aria-label="icoco de css"></i>
-                                <p class="skill-descripcion mayuscula">css 3</p>
-                            </div>
-                            <div class="skills">
-                                <i class="devicon-sass-original colored iconos-skills" aria-label="icono de sass"></i>
-                                <p class="skill-descripcion">Sass</p>
-                            </div>
-                            <div class="skills">
-                                <i class="devicon-javascript-plain colored iconos-skills" aria-label="icono de javascript"></i>
-                                <p class="skill-descripcion">JavaScript</p>
-                            </div>
-                            <div class="skills">
-                                <i class="devicon-react-original colored iconos-skills" aria-label="icono de react"></i>
-                                <p class="skill-descripcion">React</p>
-                            </div>
-                            <div class="skills">
-                                <i class="devicon-git-plain colored iconos-skills" aria-label="icono de github"></i>
-                                <p class="skill-descripcion mayuscula">git</p>
-                            </div>
-                        </div>
+            <div class="tarjetas flex">
+                <div class="columnas flex">
+                    <div class="skills flex flex-column">
+                        <i class="devicon-html5-plain colored iconos-skills" aria-label="icono de html"></i>
+                        <p class="skill-descripcion mayuscula">html 5</p>
+                    </div>
+                    <div class="skills flex flex-column">
+                        <i class="devicon-css3-plain colored iconos-skills" aria-label="icoco de css"></i>
+                        <p class="skill-descripcion mayuscula">css 3</p>
+                    </div>
+                    <div class="skills flex flex-column">
+                        <i class="devicon-sass-original colored iconos-skills" aria-label="icono de sass"></i>
+                        <p class="skill-descripcion">Sass</p>
+                    </div>
+                    <div class="skills flex flex-column">
+                        <i class="devicon-javascript-plain colored iconos-skills" aria-label="icono de javascript"></i>
+                        <p class="skill-descripcion">JavaScript</p>
+                    </div>
+                    <div class="skills flex flex-column">
+                        <i class="devicon-react-original colored iconos-skills" aria-label="icono de react"></i>
+                        <p class="skill-descripcion">React</p>
+                    </div>
+                    <div class="skills flex flex-column">
+                        <i class="devicon-git-plain colored iconos-skills" aria-label="icono de github"></i>
+                        <p class="skill-descripcion mayuscula">git</p>
                     </div>
                 </div>
+            </div>
+        </div>
         </div>
     </section>
     <!-- seccion tres cita -->
-    <section class="seccion-tres blanco">
+    <section class="seccion-tres flex flex-column blanco">
         <i class="fas fa-quote-right icono-comillas"></i>
         <blockquote>
             <p class="parrafo-cita">
@@ -93,52 +95,52 @@
     </section>
     <!-- seccion cuatro mis proyectos -->
     <a name="seccion-cuatro"></a>
-    <section class="seccion-cuatro"> 
+    <section class="seccion-cuatro flex flex-column">
         <h2 class="titulo-mis-proyectos">
             Mis Proyectos
         </h2>
-        <p  class="parrafo-mis-proyectos">
+        <p class="parrafo-mis-proyectos">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quo nobis voluptatum tenetur! Id, nesciunt?
         </p>
-        <div class="tarjetas-proyectos">
+        <div class="tarjetas-proyectos flex">
             <div class="proyectos">
-                <div class="proyecto-cards">
+                <div class="proyecto-cards flex">
                     <a href="#" class="link-proyectos">
                         <img src="./imagen-portafolio.png" alt="imagen-portafolio" class="imagen-proyecto-portafolio">
                         <p class="tarjeta-descripcion">Portfolio</p>
                     </a>
                 </div>
-                <div class="proyecto-cards">
+                <div class="proyecto-cards flex">
                     <a href="#" class="link-proyectos">
                         <img src="./undraw_Mention_re_k5xc.svg" alt="imagen-generador-de-memes" class="imagen-generador-de-memes">
                         <p class="tarjeta-descripcion">Generador de memes</p>
                     </a>
                 </div>
-                <div class="proyecto-cards">
+                <div class="proyecto-cards flex">
                     <a href="#" class="link-proyectos">
                         <img src="./undraw_old_day_6x25.png" alt="imagen-match" class="imagen-match">
                         <p class="tarjeta-descripcion">Match 3</p>
                     </a>
                 </div>
-                <div class="proyecto-cards">
+                <div class="proyecto-cards flex">
                     <a href="#" class="link-proyectos">
                         <img src="./undraw_Data_trends_re_2cdy.svg" alt="imagen-gastos" class="imagen-gastos">
                         <p class="tarjeta-descripcion">Controlador de gastos</p>
                     </a>
                 </div>
-                <div class="proyecto-cards">
+                <div class="proyecto-cards flex">
                     <a href="#" class="link-proyectos">
                         <img src="./undraw_schedule_meeting_52nu.svg" alt="imagen-reuniones" class="imagen-reuniones">
                         <p class="tarjeta-descripcion">Administrador de reuniones</p>
                     </a>
                 </div>
-                <div class="proyecto-cards">
+                <div class="proyecto-cards flex">
                     <a href="#" class="link-proyectos">
                         <img src="./undraw_happy_news_hxmt.svg" alt="imagen-app" class="imagen-app">
                         <p class="tarjeta-descripcion">Todo app</p>
                     </a>
                 </div>
-                <div class="proyecto-cards">
+                <div class="proyecto-cards flex">
                     <a href="#" class="link-proyectos">
                         <img src="./undraw_horror_movie_3988.svg" alt="imagen-peliculas" class="imagen-peliculas">
                         <p class="tarjeta-descripcion">Buscador de peliculas</p>
@@ -148,69 +150,68 @@
         </div>
     </section>
     <!-- seccion cinco formulario -->
-    <section class="seccion-cinco">
+    <section class="seccion-cinco flex">
         <div class="contenedor-seccion-cinco">
             <div class="caja-contactame">
                 <h2 class="titulo-formulario">Contactame</h2>
-                <div class="contenedor-lista">
+                <div class="contenedor-lista flex-column">
                     <p class="parrafo-contacto">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quo nobis voluptatum tenetur! Id, nesciunt? Modi quasi repudiandae quam hic quo, qui cumque nam voluptates, ipsam, tempora eaque numquam eligendi.
                     </p>
                     <ul class="lista-iconos">
-                        <li class="icono-redes-sociales"><i class="fab fa-twitter icon icono" aria-label="link para redes sociales"></i><a href="#" class="link-redes-sociales">@Adalovelace</a></li>
-                        <li class="icono-redes-sociales"><i class="fab fa-github-alt icono" aria-label="link para redes sociales"></i><a href="#" class="link-redes-sociales">Adalovelace</a></li>
-                        <li class="icono-redes-sociales"><i class="fab fa-linkedin-in icono" aria-label="link para redes sociales"></i><a href="#" class="link-redes-sociales">Adalovelace</a></li>
-                        <li class="icono-redes-sociales"><i class="fas fa-envelope icono" aria-label="link para redes sociales"></i><a href="#" class="link-redes-sociales">vico.9467@gmail.com</a></li>
+                        <li class="icono-redes-sociales"><i class="fab fa-twitter icon icono" aria-label="link para redes sociales"></i><a href="#" class="link-redes-sociales flex">@Adalovelace</a></li>
+                        <li class="icono-redes-sociales"><i class="fab fa-github-alt icono" aria-label="link para redes sociales"></i><a href="#" class="link-redes-sociales flex">Adalovelace</a></li>
+                        <li class="icono-redes-sociales"><i class="fab fa-linkedin-in icono" aria-label="link para redes sociales"></i><a href="#" class="link-redes-sociales flex">Adalovelace</a></li>
+                        <li class="icono-redes-sociales"><i class="fas fa-envelope icono" aria-label="link para redes sociales"></i><a href="#" class="link-redes-sociales flex">vico.9467@gmail.com</a></li>
                     </ul>
                 </div>
             </div>
-                <div class="caja-escribime">
-                        <h2 class="titulo-formulario">Escribime</h2>
-                    <form class="formulario">
-                        <div class="nombre-apellido">
-                            <div class="ingreso-nombre">
-                                    <label>
+            <div class="caja-escribime flex-column">
+                <h2 class="titulo-formulario">Escribime</h2>
+                <form class="formulario flex-column">
+                    <div class="nombre-apellido">
+                        <div class="ingreso-nombre flex-column">
+                            <label>
                                         Nombre*
                                     </label>
-                                    <input type="text" placeholder="p.ej.:Ada" class="input-texto" required>
-                            </div>
-                            <div class="ingreso-apellido">
-                                        <label>Apellido*</label>
-                                        <input type="text" placeholder="p.ej.:Lovelace" class="input-texto" required>
-                            </div>
+                            <input type="text" placeholder="p.ej.:Ada" class="input-texto" required>
                         </div>
-                        <div class="ingreso-mail">
-                                <label>Email*</label>
-                                <input type="email" placeholder="p.ej.:vico.9467@gmail.com" class="input-email"
-                                maxlength="30" size="50" required>
+                        <div class="ingreso-apellido flex-column">
+                            <label>Apellido*</label>
+                            <input type="text" placeholder="p.ej.:Lovelace" class="input-texto" required>
                         </div>
-                        <div class="ingreso-mensaje">
-                                <label>
+                    </div>
+                    <div class="ingreso-mail flex-column">
+                        <label>Email*</label>
+                        <input type="email" placeholder="p.ej.:vico.9467@gmail.com" class="input-email" maxlength="30" size="50" required>
+                    </div>
+                    <div class="ingreso-mensaje flex-column">
+                        <label>
                                     Mensaje*
                                 </label>
-                                <textarea name="mensaje"  placeholder="Escriba su mensaje aquí" class="texto-area" cols="20" rows="7"></textarea>
-                            
-                        </div>
-                            <button class="boton-formulario" type="submit">Enviar</button>
-                    </form>
-                </div>
-        </div>    
+                        <textarea name="mensaje" placeholder="Escriba su mensaje aquí" class="texto-area" cols="20" rows="7"></textarea>
+
+                    </div>
+                    <button class="boton-formulario flex" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
     </section>
     <!-- footer -->
-    <footer>
+    <footer class="footer flex-column">
         <nav class="footer-nav">
             <ul class="lista-nav">
                 <li class="lista-links-nav ">
                     <a href="#" class="link-footer-nav blanco">Hola</a>
                 </li>
                 <li class="lista-links-nav ">
-                    <a href="#" class="link-footer-nav blanco">Conocimientos</a> 
+                    <a href="#" class="link-footer-nav blanco">Conocimientos</a>
                 </li>
                 <li class="lista-links-nav ">
                     <a href="#" class="link-footer-nav blanco">Proyectos</a>
                 </li>
                 <li class="lista-links-nav ">
-                    <a href="#" class="link-footer-nav blanco">Contacto</a>    
+                    <a href="#" class="link-footer-nav blanco">Contacto</a>
                 </li>
             </ul>
         </nav>
@@ -231,13 +232,14 @@
                 </a>
             </li>
             <li class="lista-links-redes">
-                <a href="https://www.google.com/intl/es/gmail/about/#" target="_blank" class="link-redes-footer" >
+                <a href="https://www.google.com/intl/es/gmail/about/#" target="_blank" class="link-redes-footer">
                     <i class="fas fa-envelope icono-footer" aria-label="link para redes sociales"></i>
                 </a>
             </li>
         </ul>
-        <p class="parrafo-footer blanco">Hecho con ❤️ por Victoria Diaz</p> 
+        <p class="parrafo-footer blanco">Hecho con ❤️ por Victoria Diaz</p>
     </footer>
 
 </body>
+
 </html>
