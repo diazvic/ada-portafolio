@@ -138,7 +138,7 @@ h3 {
 }
 
 .titulo-conocimientos {
-    font-size: 4em;
+    font-size: 40px;
 }
 
 .parrafo-conocimientos {
@@ -513,6 +513,9 @@ input:focus {
         font-size: 30px;
         width: 240px;
         height: 80px;
+    }
+    .titulo-conocimientos {
+        font-size: 4em;
     }
     .parrafo-conocimientos {
         font-size: 2em;
