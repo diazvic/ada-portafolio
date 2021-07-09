@@ -66,8 +66,8 @@ a {
 .seccion-uno {
     align-content: center;
     background-color: #FBFCFC;
-    height: 800px;
-    width: 100%;
+    width: 95%;
+    padding: 90px 10px;
 }
 
 h3 {
@@ -137,7 +137,7 @@ h3 {
 }
 
 .titulo-conocimientos {
-    font-size: 40px;
+    font-size: 4em;
 }
 
 .parrafo-conocimientos {
@@ -180,7 +180,7 @@ h3 {
 
 .seccion-tres {
     background-color: #512DA8;
-    height: 500px;
+    padding: 20px 0px;
 }
 
 .icono-comillas {
@@ -263,8 +263,6 @@ h3 {
 .contenedor-seccion-cinco {
     background-color: #FFFFFF;
     display: flex;
-    height: 700px;
-    width: 1000px;
 }
 
 .caja-contactame {
@@ -473,4 +471,83 @@ input:focus {
 
 .icono-footer:active {
     box-shadow: -2px -1px 15px 0px #C64FF5;
+}
+
+@media only screen and (max-width: 600px) {
+    .navegacion {
+        display: none;
+    }
+    .seccion-uno {
+        flex-direction: column;
+    }
+    .columnas {
+        flex-direction: column;
+    }
+    .proyectos {
+        width: 100%;
+    }
+    .contenedor-seccion-cinco {
+        flex-direction: column;
+    }
+    html {
+        width: 200%;
+    }
+    .mi-presentacion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .texto-presentacion {
+        text-align: center;
+    }
+    h3 {
+        font-size: 70px;
+    }
+    .texto-presentacion {
+        font-size: 30px;
+    }
+    .boton-loquehago {
+        font-size: 30px;
+        width: 240px;
+        height: 80px;
+    }
+    .parrafo-conocimientos {
+        font-size: 2em;
+    }
+    .skills {
+        height: 500px;
+        width: 500px;
+    }
+    .iconos-skills {
+        font-size: 200px;
+    }
+    .skill-descripcion {
+        font-size: 50px;
+    }
+    .icono-comillas {
+        font-size: 160px;
+    }
+    .parrafo-cita {
+        font-size: 30px;
+    }
+    .titulo-cita {
+        font-size: 40px;
+    }
+    .titulo-mis-proyectos {
+        font-size: 60px;
+    }
+    .parrafo-mis-proyectos {
+        font-size: 30px;
+    }
+    .proyecto-cards {
+        height: 500px;
+        width: 500px;
+    }
+    .titulo-formulario {
+        font-size: 60px;
+    }
+    .parrafo-contacto {
+        font-size: 25px;
+        max-width: none;
+    }
 }
